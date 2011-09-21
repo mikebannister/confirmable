@@ -1,4 +1,4 @@
 module Confirmable
-  module ConfirmablesHelper
+  module ConfirmHelper
   end
 end

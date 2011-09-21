@@ -1,9 +1,6 @@
 module Confirmable
-  class ConfirmablesController < ApplicationController
-    def new
-    end
-    
-    def create
+  class ConfirmController < ApplicationController
+    def confirm
     end
   end
 end

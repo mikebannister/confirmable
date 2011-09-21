@@ -6,6 +6,7 @@
     <th></th>
     <th></th>
     <th></th>
+    <th></th>
   </tr>
 
 <% @widgets.each do |widget| %>
@@ -13,7 +14,7 @@
     <td><%= widget.name %></td>
     <td><%= link_to 'Show', widget %></td>
     <td><%= link_to 'Edit', edit_widget_path(widget) %></td>
-    <td><%= link_to 'Destroy', widget, confirm: 'Are you sure?', method: :delete %></td>
+    <td><%= link_to 'Destroy', confirmable.confirm_path(target_url: url_for(widget).slice(1..-1), method: 'delete') %></td>
   </tr>
 <% end %>
 </table>
