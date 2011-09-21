@@ -1,4 +1,4 @@
-<%= form_tag("/"+params[:target_url], :method => params[:method].to_sym || :post) do %>
+<%= confirm_form_tag do %>
   <p>Are you sure?</p>
   <%= submit_tag "Yes", :id => :confirm %>
   <%= link_to "No", request.env["HTTP_REFERER"], class: 'button' %>
