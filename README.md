@@ -20,7 +20,7 @@ Mount the engine
 
 Use the URL helper in your views
 
-    <%= confirm_link_to "Delete Widget", @widget %>
+    <%= confirm_link_to 'Destroy', widget, method: :delete %>
 
 ## TODO ##
 
