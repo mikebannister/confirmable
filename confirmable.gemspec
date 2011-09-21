@@ -7,11 +7,11 @@ require "confirmable/version"
 Gem::Specification.new do |s|
   s.name        = "confirmable"
   s.version     = Confirmable::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Confirmable."
-  s.description = "TODO: Description of Confirmable."
+  s.authors     = ["Mike Bannister"]
+  s.email       = ["mikebannister@gmail.com"]
+  s.homepage    = "https://github.com/mikebannister/confirmable"
+  s.summary     = "Progressively enhanced confirmation dialogs for Rails actions"
+  s.description = "Progressively enhanced confirmation dialogs for Rails actions"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
