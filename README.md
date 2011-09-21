@@ -1,6 +1,6 @@
 # Confirmable #
 
-Progressively enhanced confirmation dialogs for Rails POST actions
+Progressively enhanced confirmation dialogs for Rails actions
 
 ## Synopsis ##
 
