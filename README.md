@@ -20,7 +20,7 @@ Mount the engine
 
 Use the URL helper in your views
 
-    <%= link_to_confirmation "Delete Widget", @widget %>
+    <%= confirm_link_to "Delete Widget", @widget %>
 
 ## TODO ##
 
