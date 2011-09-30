@@ -1,5 +1,5 @@
 module Confirmable
-  class ConfirmsController < ::ApplicationController
+  class ConfirmsController < ApplicationController
     helper Confirmable::Engine.helpers
 
     def confirm
