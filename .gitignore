@@ -4,3 +4,13 @@ pkg/
 spec/dummy/db/*.sqlite3
 spec/dummy/log/*.log
 spec/dummy/tmp/
+
+
+# emacs (*&^ files
+.\#*
+\#*#
+*~
+
+# for vim
+*.swp
+tags

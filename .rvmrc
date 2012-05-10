@@ -1,1 +1,1 @@
-rvm @confirmable
+rvm use 1.9.3@confirmable --create
